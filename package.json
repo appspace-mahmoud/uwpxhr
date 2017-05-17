@@ -1,0 +1,19 @@
+{
+  "name": "appspacexhrproxy",
+  "version": "0.2.0",
+  "description": "xhr proxy for uwp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appspace-mahmoud/uwpxhr.git"
+  },
+  "author": "Mahmoud Kayali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appspace-mahmoud/uwpxhr/issues"
+  },
+  "homepage": "https://github.com/appspace-mahmoud/uwpxhr#readme"
+}
