@@ -1,12 +1,15 @@
-<plugin id="com.appspace.AppspaceXHRProxy"
-        version="1.0.0"
-        xmlns="http://apache.org/cordova/ns/plugins/1.0">
-    <name>AppspaceXHRProxy</name>
-    <platform name="windows">  
-        <framework custom="true" src="src/windows/AppspaceXHRProxy.winmd"></framework>
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="AppspaceXHRProxy"
+    version="0.2.0">
 
-        <js-module name="AppspaceXHRProxy" src="src/windows/AppsapceXHRProxy.js">
-            <runs />
+    <!-- windows -->
+    <platform name="windows">
+        <js-module src="src/windows/AppspaceXHRProxy.js" name="XHRProxy">
+            <merges target="" />
         </js-module>
+        <framework src="src/windows/AppspaceXHRProxy.winmd" custom="true"/>
     </platform>
+
+    <!-- other platforms -->
 </plugin>
