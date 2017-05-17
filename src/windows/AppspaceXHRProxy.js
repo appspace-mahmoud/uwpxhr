@@ -9,6 +9,6 @@ module.exports = {
         } else {
             fail();
         }
-    };
+    }
 };
 require("cordova/exec/proxy").add("AppspaceXHRProxy", module.exports);
